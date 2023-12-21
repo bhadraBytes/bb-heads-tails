@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heads & Tails</title>
+    <link rel="stylesheet" href="/style/Heads-Tails.css">
+    <link rel="stylesheet" href="/style/utility-2.css">
+    <link rel="stylesheet" href="/style/deposit.css">
+    <link rel="stylesheet" href="/style/FlipCoin.css">
+</head>
+
+<body>
+    <!-- <div class="forMobile">
+        <h1>Only For Desktop Screens</h1>  
+    </div> -->
+    <div class="main-page">
+        <header>
+            <nav class="navbar1">
+                <div class="logo">
+                    <img src="/Assets/bhadrabytes.png" alt="">
+                </div>
+                <!-- <h2 class="nav-header">Heads & Tails</h2> -->
+                <ul class="nav-list1">
+                    <li><a href="/ContactForm.html" id="contact-button">Contact Us</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">Withdraw</a></li>
+                    <li><a href="#">Deposit</a></li>
+                    <li><a href="/index.html">Home</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="game-container">
+                    <div class="game-box-container">
+                        <!-- <div class="game-background">
+                            <img src="/" alt="">
+                        </div> -->
+
+                        <div class="account-status">
+                            <div class="row">
+                                <!-- <div class="deposit-status">
+                                    <a href="depoit-link" class="class">Deposit</a>
+                                    <h2>₹ <span id="current-deposit">00</span></h2>
+                                </div>
+
+                                <div class="withdraw-status">
+                                    <a href="" class="withdraw-link">Withdraw</a>
+                                    <h2>₹ <span id="current-withdraw">00</span></h2>
+                                </div> -->
+
+                                <div class="balance-status">
+                                    <a href="" class="balance-link">Balance</a>
+                                    <h2> <span id="current-balance">00</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-game-bg">
+                            <div class="coin-box">
+                                <div class="vertical-coin-box">
+
+                                    <div class="coin" id="coin">
+                                            <div class="outcome">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="coin-container-box">
+                                <div class="heads-tails-switch">
+                                    <input type="radio" name="coin-selector" id="coin-head">
+                                    <label for="coin-head">Heads</label>
+                                    <input type="radio" name="coin-selector" id="coin-tail">
+                                    <label for="coin-tail">Tails</label>
+                                    <audio id="sound" src="/Assets/Click-Sound-H&T.mp3"></audio>
+                                </div>
+                                <div class="flip-bttns">
+                                    <button class="button" id="coinFlipButton">Flip</button>
+                                </div>
+                            </div>
+                            <div class="game-money-container">
+                                <div class="money-bttns-switch">
+                                    <input type="radio" name="money-bttns" id="money-bttns-10" value="10">
+                                    <label for="money-bttns-10">₹10</label>
+
+                                    <input type="radio" name="money-bttns" id="money-bttns-20" value="20">
+                                    <label for="money-bttns-20">₹20</label>
+
+                                    <input type="radio" name="money-bttns" id="money-bttns-50" value="50">
+                                    <label for="money-bttns-50">₹50</label>
+
+                                    <input type="radio" name="money-bttns" id="money-bttns-100" value="100">
+                                    <label for="money-bttns-100">₹100</label>
+
+                                    <input type="radio" name="money-bttns" id="money-bttns-200" value="200">
+                                    <label for="money-bttns-200">₹200</label>
+
+                                    <input type="radio" name="money-bttns" id="money-bttns-500" value="500">
+                                    <label for="money-bttns-500">₹500</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- <footer>
+            <h2>Made By bhadrabytes</h2>
+        </footer> -->
+</body>
+<!-- <script>
+    const btn = document.querySelector('#js-button')
+    btn.addEventListener('click', (e) => {
+        btn.classList.toggle('pushed')
+    }, true)
+</script> -->
+<script src="/js/Coin-Flip.js"></script>
+<script src="https://kit.fontawesome.com/7f793b200d.js" crossorigin="anonymous"></script>
+
+</html>
